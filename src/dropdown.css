@@ -1,0 +1,19 @@
+*{
+    transition: all ease-in-out .5s;
+}
+.dropdown-menu{
+    transition: all ease-in-out .5s;
+    position: absolute;
+    background: #EEEEEE;
+}
+.dropdown-menu ul li{
+    list-style: none;
+    margin: 20px 0;
+}
+.dropdown-menu ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+.dropdown-menu ul li a:hover{
+    color: #008000;
+}

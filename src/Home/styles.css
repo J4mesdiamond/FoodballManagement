@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: #CBD7E9;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    z-index: 200;
+    background: white;
+}
+.container{
+    margin: 10px 100px;
+}
+nav .right{
+    display: flex;
+    flex-direction: row;
+}
+
+nav .right a.btn:nth-child(2){
+    margin-left: 20px;
+}
+.pos{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    color: white;
+    text-align: center;
+}
+.pos h2{
+    font-size: 40px;
+}
+.pos p{
+    font-size: 20px;
+}
+.team p{
+    padding: 0 90px;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+}
+.manage{
+    margin-top: 20%;
+}
+.manage .grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: repeat( 2,auto );
+    justify-items: center
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    z-index: 200;
+    background: white;
+}

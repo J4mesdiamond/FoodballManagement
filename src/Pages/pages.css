@@ -1,0 +1,285 @@
+body{
+    background-color: #CBD7E9;
+}
+nav .middle{
+    display: flex;
+    flex-direction: row;
+}
+nav .middle a.btn{
+    height: fit-content;
+    padding: 10px 10px;
+    background: #EEEEEE;
+    text-decoration: none;
+    color: black;
+}
+nav .middle a.btn{
+    margin-left: 20px;
+}
+
+nav .middle a.btns{
+    height: fit-content;
+    padding: 10px 10px;
+    width: 125px;
+    height: 22px;
+    background: #EEEEEE;
+    text-decoration: none;
+    color: black;
+}
+nav .middle a.btns{
+    margin-left: 20px;
+}
+
+nav .middle a.active{
+    color: #008000;
+}
+nav .middle a.btn:nth-child(2) i{
+    color: black;
+    padding-left: 10px;
+}
+nav .rights{
+    display: flex;
+    flex-direction: row;
+}
+nav .rights a.btn{
+    height: fit-content;
+    padding: 10px 10px;
+    background: #EEEEEE;
+    text-decoration: none;
+    color: black;
+}
+nav .rights a.btn:nth-child(2){
+    margin-left: 20px;
+}
+
+/* Overview */
+.grids{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(2, auto);
+}
+.grids .flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+.grids .flex i{
+    font-size: 35px;
+    padding-right: 6%;
+}
+.grids .box{
+    padding: 0 20px;
+    margin: 40px 80px;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    background-color: white;
+}
+.grids .flx{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: repeat(2, auto);
+    justify-content: space-evenly;
+}
+
+/* Table */
+.table{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 80px;
+}
+.line{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: repeat(2, auto);
+    border-bottom: 1px solid black;
+    justify-items: center;
+}
+
+table{
+    width: 100%;
+    padding: 5% 0%;
+}
+.table h2{
+    text-align: left;
+    font-size: 32px;
+}
+table tr th{
+    text-align: left;
+    font-size: 20px;
+}
+table tr td{
+    padding: 2% 0;
+    border-bottom: 2px solid black;
+}
+table tr td:nth-child(1){
+    font-weight: 700;
+    font-size: 22px;
+}
+table tr td:nth-child(4){
+    font-weight: 700;
+    font-size: 20px;
+}
+.pl{
+    display: flex;
+    justify-content: flex-end;
+}
+.play{
+    text-decoration: none;
+    background: #02004D;
+    color: white;
+    width: 7%;
+    padding: 10px 25px;
+}
+.mininav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2% 0;
+    align-items: center;
+}
+.flxx{
+    display: flex;
+    flex-direction: row;
+}
+.plays{
+    text-decoration: none;
+    background: #02004D;
+    color: white;
+    width: 7%;
+    margin-left: 10px;
+    padding: 10px 25px;
+}
+.mininav input{
+    width: 60%;
+    padding: 13px;
+    border-radius: 20px;
+    border: 1px solid #F4F6FA;
+}
+td button.btn1{
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 0px solid ;
+    background: #37a748;
+    color: white;
+}
+td button.btn2{
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 0px solid ;
+    background: #ffc21a;
+    color: white;
+}
+td button.btn3{
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 0px solid ;
+    background: #dc425b;
+    color: white;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-group input{
+    width: 50%;
+    padding: 16px 30px;
+    margin: 18px 0;
+    border: 0px solid;
+}
+.fx{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.fx button{
+    padding: 13px 20px;
+    background-color: #02004D;
+    color: white;
+}
+.rw{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+}
+.rw label{
+    font-size: 20px;
+    text-align: right;
+}
+.fxx{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10%;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+}
+.gridss{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: repeat(2, auto);
+}
+.form-group1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-group1 input{
+    width: 80%;
+    padding: 16px 30px;
+    margin: 10px 0;
+    border: 0px solid;
+}
+.gridss .form-group1 label{
+    color: white;
+    font-size: 22px;
+    margin-left: -80%;
+}
+#table th{
+    border-bottom: 1px solid black;
+    padding: 15px 0;
+}
+#table th:nth-child(1){
+    font-size: 22px;
+}
+#table th:nth-child(2){
+    font-size: 17px;
+    font-weight: 400;
+}
+#table th:nth-child(3){
+    font-size: 19px;
+    font-weight: 400;
+}
+#grid .form-group input{
+    width: 80%;
+    padding: 16px 30px;
+    margin: 19px 0;
+    border: 0px solid;
+}
+#grid .form-group label{
+    color: white;
+    font-size: 22px;
+    margin-left: -80%;
+}
+.search-result {
+    padding: 10px 20px;
+}
+.search-result:hover {
+    background-color: #efefef;
+}
+.search-bar-container {
+    padding-top: 20vh;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 200px;
+}  
